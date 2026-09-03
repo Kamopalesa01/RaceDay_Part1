@@ -1,0 +1,22 @@
+name: Validate Docs Folder
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Check if docs folder exists
+      run: |
+        if [ -d "docs" ]; then
+          echo "✅ docs folder exists!"
+          exit 0
+        else
+          echo "❌ docs folder missing!"
+          exit 1
+        fi
