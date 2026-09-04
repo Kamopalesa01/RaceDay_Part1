@@ -61,6 +61,7 @@ GO
 -- ============================================================
 -- Table: Categories
 -- ============================================================
+-- Created Categories table to define race distance and entry fees for each event
 CREATE TABLE Categories (
     CategoryId INT IDENTITY(1,1) PRIMARY KEY,
     EventId INT NOT NULL,
