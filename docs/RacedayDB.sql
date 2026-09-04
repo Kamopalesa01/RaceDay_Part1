@@ -106,6 +106,7 @@ GO
 -- ============================================================
 -- Table: AuditLog
 -- ============================================================
+-- Created Auditlog table to track changes and maintain data integrity
 CREATE TABLE AuditLog (
     AuditId INT IDENTITY(1,1) PRIMARY KEY,
     TableName NVARCHAR(100) NOT NULL,
