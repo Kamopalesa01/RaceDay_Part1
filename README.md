@@ -47,6 +47,7 @@ The database consists of the following tables:
 ## Technologies Used
 - **Backend**: ASP.NET Core Web API (C#)
 - **Database**: Microsoft SQL Server with Entity Framework Core
+- **Frontend**: ASP.NET Core MVC with Razor Views
 - **Database**: Microsoft SQL Server
 - **Backend API**: C# / ASP.NET Core (Part 2)
 - **Frontend**: MVC Web Application (Part 3)
