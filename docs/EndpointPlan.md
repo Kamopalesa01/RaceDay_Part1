@@ -42,6 +42,8 @@ These endpoints manage race categories (e.g., 5km, 10km, Marathon ) Linked to sp
 
 ## Enrolment Endpoints
 
+These endpoints handle participant registrations (enrolments) for specific event categories.
+
 |HTTP Method|Route|Description|Role Required|Request Body|Expected Response|
 |-|-|-|-|-|-|
 |GET|/api/events/{eventId}/enrolments|Get all enrolments for an event|Organiser|None|200 OK - list of enrolments|
