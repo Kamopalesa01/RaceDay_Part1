@@ -44,7 +44,7 @@
 | PUT | /api/enrolments/{id}/status | Update enrolment status | Organiser or Participant | { "status" } | 200 OK - updated enrolment |
 | DELETE | /api/enrolments/{id} | Cancel an enrolment | Participant (own) or Organiser | None | 204 No Content |
 
-## Result Endpoints
+## Results Endpoints
 
 | HTTP Method | Route | Description | Role Required | Request Body | Expected Response |
 |-------------|-------|-------------|---------------|--------------|-------------------|

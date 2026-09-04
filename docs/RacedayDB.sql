@@ -24,6 +24,7 @@ GO
 -- ============================================================
 -- Table: Users
 -- ============================================================
+-- Created Users table to store login credentials and users types
 CREATE TABLE Users (
     UserId INT IDENTITY(1,1) PRIMARY KEY,
     Email NVARCHAR(100) NOT NULL UNIQUE,
