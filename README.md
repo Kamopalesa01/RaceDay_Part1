@@ -49,6 +49,7 @@ The database consists of the following tables:
 - **Database**: Microsoft SQL Server with Entity Framework Core
 - **Frontend**: ASP.NET Core MVC with Razor Views
 - **CI/CD**: GitHub Actions for automated builds
+- **Containerization**: Docker (Part 3)
 - **Database**: Microsoft SQL Server
 - **Backend API**: C# / ASP.NET Core (Part 2)
 - **Frontend**: MVC Web Application (Part 3)
