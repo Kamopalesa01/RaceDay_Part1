@@ -75,6 +75,7 @@ GO
 -- ============================================================
 -- Table: Enrolments
 -- ============================================================
+-- Created Enrolments table to link participants to specific Event Categories
 CREATE TABLE Enrolments (
     EnrolmentId INT IDENTITY(1,1) PRIMARY KEY,
     ParticipantId INT NOT NULL,
