@@ -19,6 +19,8 @@ These endpoints handle users registration , login, and profile management for bo
 
 ## Event Endpoints
 
+The endpoints allow Organisers to create , update , and delete events while Participants can view upcomimg races.
+
 |HTTP Method|Route|Description|Role Required|Request Body|Expected Response|
 |-|-|-|-|-|-|
 |GET|/api/events|Get all events (with optional filters)|None (Public)|None (query params: city, date, category)|200 OK - list of events|
