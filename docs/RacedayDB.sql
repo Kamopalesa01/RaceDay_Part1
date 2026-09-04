@@ -40,6 +40,7 @@ GO
 -- ============================================================
 -- Table: Events
 -- ============================================================
+-- Created Events table to store race details like date , location , and organiser reference
 CREATE TABLE Events (
     EventId INT IDENTITY(1,1) PRIMARY KEY,
     OrganiserId INT NOT NULL,
