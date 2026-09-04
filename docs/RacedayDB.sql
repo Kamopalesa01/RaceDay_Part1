@@ -90,6 +90,7 @@ GO
 -- ============================================================
 -- Table: Results
 -- ============================================================
+-- Created Results table to capture finish times , positions , and race status
 CREATE TABLE Results (
     ResultId INT IDENTITY(1,1) PRIMARY KEY,
     EnrolmentId INT NOT NULL UNIQUE,
