@@ -45,6 +45,7 @@ The database consists of the following tables:
 [Watch the walkthrough here](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 ## Technologies Used
+- **Backend**: ASP.NET Core Web API (C#)
 - **Database**: Microsoft SQL Server
 - **Backend API**: C# / ASP.NET Core (Part 2)
 - **Frontend**: MVC Web Application (Part 3)
