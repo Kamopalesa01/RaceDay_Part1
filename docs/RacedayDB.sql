@@ -189,6 +189,8 @@ VALUES
     (5, '00:28:30', 45, 20, 5.42, 'FINISHED');
 GO
 
+-- Inserted realistic sample data for testing (Organisers , Participants , Events , etc . )
+
 -- ============================================================
 -- Verification Queries
 -- ============================================================
