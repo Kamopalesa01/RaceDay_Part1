@@ -54,6 +54,8 @@ These endpoints handle participant registrations (enrolments) for specific event
 
 ## Results Endpoints
 
+These endpoints allow Organisers to capture race results and Participants to view their performance history.
+
 |HTTP Method|Route|Description|Role Required|Request Body|Expected Response|
 |-|-|-|-|-|-|
 |GET|/api/events/{eventId}/results|Get all results for an event|None (Public)|None|200 OK - list of results|
