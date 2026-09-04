@@ -31,6 +31,8 @@ The endpoints allow Organisers to create , update , and delete events while Part
 
 ## Category Endpoints
 
+These endpoints manage race categories (e.g., 5km, 10km, Marathon ) Linked to specific events.
+
 |HTTP Method|Route|Description|Role Required|Request Body|Expected Response|
 |-|-|-|-|-|-|
 |GET|/api/events/{eventId}/categories|Get all categories for an event|None (Public)|None|200 OK - list of categories|
