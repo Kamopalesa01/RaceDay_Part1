@@ -42,7 +42,7 @@ The database consists of the following tables:
 - **AuditLog** - Tracks changes to the database (optional)
 
 ## Video Walkthrough
-[Watch the walkthrough here](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[Watch the walkthrough here](https://youtu.be/51ykzyMPI5g?si=xRGuUt-SrxcE8H8j)
 
 ## Technologies Used
 - **Backend**: ASP.NET Core Web API (C#)
