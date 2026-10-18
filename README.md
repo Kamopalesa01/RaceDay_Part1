@@ -42,7 +42,11 @@ The database consists of the following tables:
 - **AuditLog** - Tracks changes to the database (optional)
 
 ## Video Walkthrough
-[Watch the walkthrough here](https://youtu.be/51ykzyMPI5g?si=xRGuUt-SrxcE8H8j)
+Part 1-https://youtu.be/51ykzyMPI5g?si=xRGuUt-SrxcE8H8j
+
+
+Part 2-
+https://youtu.be/WrXAJwnWMSs?si=16Pm9mhlz8yWgSpz
 
 ## Technologies Used
 - **Backend**: ASP.NET Core Web API (C#)
@@ -61,4 +65,4 @@ The database consists of the following tables:
 Kamogelo Palesa Masiapata
 
 ## Date
-01 September 2026
+15 October 2026
