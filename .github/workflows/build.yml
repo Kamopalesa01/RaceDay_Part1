@@ -11,17 +11,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    
+
     - name: Setup .NET 8
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x'
-    
+
     - name: Restore dependencies
-      run: dotnet restore "./RaceDay/RaceDay.sln"
-    
+      run: dotnet restore "RaceDay/RaceDay.slnx"
+
     - name: Build
-      run: dotnet build "./RaceDay/RaceDay.sln" --no-restore
-    
+      run: dotnet build "RaceDay/RaceDay.slnx" --no-restore
+
     - name: Test
-      run: dotnet test "./RaceDay/RaceDay.sln" --no-build --verbosity normalsssss
+      run: dotnet test "RaceDay/RaceDay.slnx" --no-build --verbosity normal
