@@ -1,4 +1,4 @@
-name: Validate Docs Folder
+name: Build and Test RaceDay API
 
 on:
   push:
@@ -11,12 +11,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Check if docs folder exists
-      run: |
-        if [ -d "docs" ]; then
-          echo "✅ docs folder exists!"
-          exit 0
-        else
-          echo "❌ docs folder missing!"
-          exit 1
-        fi
+    
+    - name: Setup .NET 8
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+    
+    - name: Restore dependencies
+      run: dotnet restore "./RaceDay/RaceDay.sln"
+    
+    - name: Build
+      run: dotnet build "./RaceDay/RaceDay.sln" --no-restore
+    
+    - name: Test
+      run: dotnet test "./RaceDay/RaceDay.sln" --no-build --verbosity normalsssss
