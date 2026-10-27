@@ -1,4 +1,4 @@
-name: Build and Test RaceDay API
+name: Build and Test RaceDay
 
 on:
   push:
@@ -18,10 +18,10 @@ jobs:
         dotnet-version: '8.0.x'
     
     - name: Restore dependencies
-      run: dotnet restore "./RaceDay/RaceDay.sln"
+      run: dotnet restore "RaceDay/RaceDay.slnx"
     
     - name: Build
-      run: dotnet build "./RaceDay/RaceDay.sln" --no-restore
+      run: dotnet build "RaceDay/RaceDay.slnx" --no-restore
     
     - name: Test
-      run: dotnet test "./RaceDay/RaceDay.sln" --no-build --verbosity normalsssss
+      run: dotnet test "RaceDay/RaceDay.slnx" --no-build --verbosity normal
