@@ -24,4 +24,4 @@ jobs:
       run: dotnet build "RaceDay/RaceDay.slnx" --no-restore
     
     - name: Test
-      run: dotnet test "RaceDay/RaceDay.slnx" --no-build --verbosity normal
+      run: dotnet test "RaceDay/RaceDay.slnx" --no-build --verbosity normalss
