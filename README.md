@@ -48,6 +48,8 @@ Part 1-https://youtu.be/51ykzyMPI5g?si=xRGuUt-SrxcE8H8j
 Part 2-
 https://youtu.be/WrXAJwnWMSs?si=16Pm9mhlz8yWgSpz
 
+Part 3- https://youtu.be/3GLwZjLiWlA?si=7WqWpjLOr9eGwnXN
+
 ## Technologies Used
 - **Backend**: ASP.NET Core Web API (C#)
 - **Database**: Microsoft SQL Server with Entity Framework Core
